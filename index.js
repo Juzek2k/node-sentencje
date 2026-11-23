@@ -1,5 +1,6 @@
 import express from 'express';
 import fs from 'node:fs/promises';
+import { sledzenie } from './lib/sledzenie.js';
 
 const PORT = 3000;
 const app = express();
